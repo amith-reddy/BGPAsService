@@ -1,0 +1,6 @@
+--Output from Login Page--
+--Output from Delete the Scheduler details--
+--Output from delete Neighbor--
+--Output from delete Protocol--
+--Output from delete Port--
+--Output from delete Exaaction--

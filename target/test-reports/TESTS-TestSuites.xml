@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="SBAWAMITHRA01" id="0" name="CleanupWithoutAuthSpec" package="bgpasservice" tests="6" time="69.338" timestamp="2014-08-18T20:57:49">
+      <properties />
+
+      <testcase classname="bgpasservice.CleanupWithoutAuthSpec" name="Login Page" time="6.711" />
+
+      <testcase classname="bgpasservice.CleanupWithoutAuthSpec" name="Delete the Scheduler details" time="15.975" />
+
+      <testcase classname="bgpasservice.CleanupWithoutAuthSpec" name="delete Neighbor" time="9.057" />
+
+      <testcase classname="bgpasservice.CleanupWithoutAuthSpec" name="delete Protocol" time="8.847" />
+
+      <testcase classname="bgpasservice.CleanupWithoutAuthSpec" name="delete Port" time="8.814" />
+
+      <testcase classname="bgpasservice.CleanupWithoutAuthSpec" name="delete Exaaction" time="19.928" />
+
+      <system-out><![CDATA[--Output from Login Page--
+--Output from Delete the Scheduler details--
+--Output from delete Neighbor--
+--Output from delete Protocol--
+--Output from delete Port--
+--Output from delete Exaaction--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Login Page--
+--Output from Delete the Scheduler details--
+--Output from delete Neighbor--
+--Output from delete Protocol--
+--Output from delete Port--
+--Output from delete Exaaction--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

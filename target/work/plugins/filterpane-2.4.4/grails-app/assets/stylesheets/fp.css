@@ -1,0 +1,55 @@
+/*
+*= require_self
+*/
+
+@CHARSET "ISO-8859-1";
+.fp-dialog {
+	position: absolute;
+	width:50%;
+    left: 50%;
+	margin-left: -25%;
+	top: 50px;
+	border: 2px solid #666666;
+	background-color: white;
+	padding: 5px;
+	z-index: 1;
+}
+
+.filterTable {
+	width: 100%;
+}
+
+a.remove img {
+ 	border: none;
+	position: relative;
+	top: 3px;
+	width: 18px;
+	height: 18px;
+}
+
+a.filterbtn {
+	color:white;
+	text-decoration:none;
+	font-size: 110%;
+	border-radius:4px;
+	padding:5px 5px;
+}
+
+
+.filterbtn {
+	position:relative;
+	left:26px;
+	 -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  -ms-border-radius: 5px;
+	  -o-border-radius: 5px;
+	  border-radius: 5px;
+	  line-height:40px;
+	  background: #2780e3;
+}
+
+#filterPaneCurrentCriteria li{
+	position:relative;
+	left:26px;
+}
+}

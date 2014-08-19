@@ -1,0 +1,20 @@
+.tip {
+
+      max-width: 1000px;
+      //height: 10px;
+      line-height: 13px;
+      //float:left;
+      padding: 7px;
+      font-size: 0.9em;
+      font-weight:normal;
+      text-align: left;
+      display: inline;
+      color: black;
+      background: #B5D4F7;
+      border: 4px solid #FFFFFF;
+      border-radius: 10px;
+      //text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+     // box-shadow: rgba(0, 0, 0, 0.092222) 1px 1px 2px 0px;
+      opacity: 0.5;
+}
+

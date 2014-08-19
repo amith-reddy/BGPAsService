@@ -1,0 +1,22 @@
+<plugin name='jdbc-pool' version='7.0.47' grailsVersion='2.0 &gt; *'>
+  <title>Tomcat JDBC Pool plugin</title>
+  <description>Replaces default Grails Commons DBCP Pool with Tomcat JDBC Pool (https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html)</description>
+  <type>JdbcPoolGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='org.apache.tomcat' name='tomcat-jdbc' version='7.0.47' />
+      <dependency group='org.apache.tomcat' name='tomcat-juli' version='7.0.47' />
+    </runtime>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

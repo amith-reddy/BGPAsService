@@ -1,0 +1,20 @@
+#alignright {
+			position:relative;
+			left: 293px;
+			top:-18px;
+			color:#666666;
+		}
+		
+.heading-reference {
+	color:#1A6BC4
+}
+
+select#sourceport.many-to-one  {
+	width:230px;   
+}
+
+select#destinationport.many-to-one  {
+	width:230px;   
+}
+
+

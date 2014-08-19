@@ -1,0 +1,174 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require main
+*= require mobile
+*= require_self
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@charset "UTF-8";
+
+div#grailsLogo.ryl-glass-green-light{
+  background: -moz-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2780e3), color-stop(100%, #689BD5));
+  background: -webkit-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -o-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -ms-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: linear-gradient(top, #2780e3 0%, #689BD5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ec72b', endColorstr='#6da709',GradientType=0 ); /* IE6-9 */
+	}
+
+div#ftr.footer{
+  background: -moz-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2780e3), color-stop(100%, #689BD5));
+  background: -webkit-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -o-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -ms-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: linear-gradient(top, #2780e3 0%, #689BD5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ec72b', endColorstr='#6da709',GradientType=0 ); /* IE6-9 */
+	}
+	
+#protocolRulestyle {
+				background-color: #eee;
+				-border: .2em solid #fff;
+				-margin: 2em 2em 1em;
+				-padding: 1em;
+				-width: 12em;
+				-float: left;
+				-moz-box-shadow: 0px 0px 1.25em #ccc;
+				-webkit-box-shadow: 0px 0px 1.25em #ccc;
+				-box-shadow: 0px 0px 1.25em #ccc;
+				-moz-border-radius: 0.6em;
+				-webkit-border-radius: 0.6em;
+				-border-radius: 0.6em;
+			}
+			
+
+#welcome {
+	font-weight: normal;
+	font-size: 1.7em;
+	margin: 0.8em 0 0.3em 0;
+	position:relative;
+	top:-94px;
+	left:446px;
+	color: #FFFFFF;
+}
+
+
+
+/* Base Styles */
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font-family: 'Lato', sans-serif;
+}
+#cssmenu {
+  border: 1px solid #FFFFFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+  vertical-align: top;
+ /* position:relative;
+  top:-122px;*/
+}
+#cssmenu ul {
+  zoom: 1;
+  background: #36b0b6;
+  background: -moz-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2780e3), color-stop(100%, #689BD5));
+  background: -webkit-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -o-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: -ms-linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  background: linear-gradient(top, #2780e3 0%, #689BD5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+}
+#cssmenu li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 18px;
+}
+#cssmenu li.active {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #0F58A7;
+}
+#cssmenu li.active a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #0F58A7;
+  /*border: 1px solid #133e40;*/
+  -moz-box-shadow: inset 0 5px 10px #0F58A7;
+  -webkit-box-shadow: inset 0 5px 10px #0F58A7;
+  box-shadow: inset 0 5px 10px #0F58A7;
+}
+#cssmenu li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #0F58A7;
+}
+#cssmenu li:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #0F58A7;
+  -moz-box-shadow: inset 0 5px 10px #0F58A7;
+  -webkit-box-shadow: inset 0 5px 10px #0F58A7;
+  box-shadow: inset 0 5px 10px #0F58A7;
+}
+

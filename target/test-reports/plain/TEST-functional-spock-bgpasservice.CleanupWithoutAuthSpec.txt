@@ -1,0 +1,25 @@
+Testsuite: bgpasservice.CleanupWithoutAuthSpec
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 69.338 sec
+------------- Standard Output ---------------
+--Output from Login Page--
+--Output from Delete the Scheduler details--
+--Output from delete Neighbor--
+--Output from delete Protocol--
+--Output from delete Port--
+--Output from delete Exaaction--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Login Page--
+--Output from Delete the Scheduler details--
+--Output from delete Neighbor--
+--Output from delete Protocol--
+--Output from delete Port--
+--Output from delete Exaaction--
+------------- ---------------- ---------------
+
+Testcase: Login Page took 6.711 sec
+Testcase: Delete the Scheduler details took 15.975 sec
+Testcase: delete Neighbor took 9.057 sec
+Testcase: delete Protocol took 8.847 sec
+Testcase: delete Port took 8.814 sec
+Testcase: delete Exaaction took 19.928 sec
