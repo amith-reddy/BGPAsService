@@ -1,4 +1,4 @@
-bgpAsService
+BGPAsService
 ============
 Installation Steps:
 ------------------
