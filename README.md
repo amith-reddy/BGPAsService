@@ -1,5 +1,10 @@
 BGPAsService
 ============
+
+Overview:
+---------
+ExaBGP is an opensource tool that allows add/delete flowspec routes ( RFC 5575). Flowspec will be used to dynamically rate limit, honeypot or discard incoming traffic from our ISPs for DDOS(Distributed Denial Of Service).
+
 Installation Steps:
 ------------------
 Open your favourite bash terminal and enter the following:
